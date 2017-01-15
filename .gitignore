@@ -1,9 +1,8 @@
 twentyfifteen
 twentyfourteen
 twentysixteen
-the-core-child
-the-core-parent
 index.php
+.github-data
 *.log
 wp-config.php
 wp-content/advanced-cache.php

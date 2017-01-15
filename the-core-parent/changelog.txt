@@ -1,0 +1,758 @@
+*** The Core Changelog ***
+
+ 2016.11.18 - version 1.0.15
+ * Added new demo "Startapp"
+	the-core-parent/theme-includes/hooks.php
+ * Fixed seach on mobile
+	the-core-parent/dynamic-css/fw-theme/headers/header-search.php
+	the-core-parent/js/general.js
+ * Fixed Auto install module
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/config/config.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/class-fw-auto-install.php
+ * Minor improvements to masonry
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/latest-posts/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/portfolio/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/slideshow/static.php
+	the-core-parent/js/general.js
+	the-core-parent/js/start-masonry.js
+	the-core-parent/theme-includes/static.php
+ * Added comments to visual builder template
+	the-core-parent/js/theme-admin.js
+	the-core-parent/visual-builder-template.php
+ * Added homepage header options when is setter latest posts to homepage
+	the-core-parent/css/theme-admin.css
+	the-core-parent/framework-customizations/theme/options/homepage-tab.php
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/theme-includes/helpers.php
+ * Added possibility to change the filename of the style file that is generated from php/css
+	the-core-parent/dynamic-css/fw-theme.php
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/static.php
+ * Renamed fw_render_view function
+	the-core-parent/dynamic-css/fw-theme.php
+	the-core-parent/dynamic-css/fw-variables.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/latest-posts/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/testimonials/class-fw-shortcode-testimonials.php
+	the-core-parent/framework-customizations/extensions/sidebars/views/backend-main-view.php
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/theme-includes/includes/option-types/color-palette/class-fw-color-palette-new.php
+	the-core-parent/theme-includes/includes/option-types/color-palette/view.php
+	the-core-parent/theme-includes/includes/option-types/tf-animation/class-fw-option-type-tf-animation.php
+	the-core-parent/theme-includes/includes/option-types/tf-typography/class-fw-option-type-tf-typography.php
+	the-core-parent/theme-includes/widgets/fw-facebook-page-stream/class-widget-fw-facebook-page-stream.php
+	the-core-parent/theme-includes/widgets/fw-flickr/class-widget-fw-flickr.php
+	the-core-parent/theme-includes/widgets/fw-instagram/class-widget-fw-instagram.php
+	the-core-parent/theme-includes/widgets/fw-login/class-widget-fw-login.php
+	the-core-parent/theme-includes/widgets/fw-posts/class-widget-fw-posts.php
+	the-core-parent/theme-includes/widgets/fw-twitter/class-widget-fw-twitter.php
+ * Sticky on tablet (minor changes)
+	the-core-parent/dynamic-css/fw-theme/breadcrumbs.php
+	the-core-parent/js/general.js
+
+ 2016.10.06 - version 1.0.14
+ * Added new demo "The Advisors"
+	the-core-parent/theme-includes/hooks.php
+ * LESS to PHP/CSS
+	the-core-parent/dynamic-css/...
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+ * Minor changes for typography option type size verification
+	the-core-parent/theme-includes/includes/option-types/tf-typography/static/js/scripts.js
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/config/config.php
+	the-core-parent/theme-includes/register-required-plugins.php
+ 
+ 2016.09.13 - version 1.0.13
+ * Minor changes for empty key in google fonts on include
+	the-core-parent/theme-includes/helpers.php
+ * Minor css fixes for modal levels
+	the-core-parent/css/theme-admin.css
+	the-core-parent/theme-includes/includes/option-types/tf-typography/static/css/styles.css
+ * Added custom shape to section
+	the-core-parent/css/theme-admin.css
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/column/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/fw-gallery/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/list/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/section/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/section/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/slideshow/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/theme-includes/includes/option-types/color-palette/static/js/scripts.js
+ * Fixed grid for events posts in event category
+	the-core-parent/framework-customizations/extensions/events/views/taxonomy.php
+	the-core-parent/theme-includes/hooks.php
+ * Fixed facebook Wiget date localization
+	the-core-parent/theme-includes/widgets/fw-facebook-page-stream/views/widget.php
+	the-core-parent/theme-includes/widgets/fw-facebook-page-stream/class-widget-fw-facebook-page-stream.php
+ * Minor changes for flickr(console notice)
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/theme-includes/widgets/fw-flickr/static/js/scripts.js
+ * Fixed select in megamenu on firefox
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/button/options.php
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/fw-theme/content.css
+	the-core-parent/styles-css/fw-theme/headers/mega-menu.css
+ * Fixed notices
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/theme-includes/register-required-plugins.php
+ 
+ 
+ 2016.08.22 - version 1.0.12
+ * Added new demo "Kid Quest"
+	the-core-parent/theme-includes/hooks.php
+ * Compatibiliy with "wp-shortcodes" Unyson extension
+	the-core-parent/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/easy-slider/views/easy-slider.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/button/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/calendar/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/column/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/countdown/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/fw-gallery/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/image-box/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/latest-posts/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/list/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/map/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/quote/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/section/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/table/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php
+	the-core-parent/framework-customizations/theme/manifest.php
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/styles-css/fw-theme/headers/mega-menu.css
+	the-core-parent/styles-less/fw-theme/headers/mega-menu.less
+	the-core-parent/templates/headers/header-4.php
+	the-core-parent/theme-includes/helpers.php
+ * Added icon box type 4
+	the-core-parent/css/theme-admin.css
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/icon-box/views/view.php
+	the-core-parent/images/image-picker/icon-box-type4.jpg
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/fw-theme/general.css
+	the-core-parent/styles-css/fw-theme/headers/mobile-menu.css
+	the-core-parent/theme-includes/hooks.php
+ * Fixed Easy Slider slide link population algorithm
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/easy-slider/views/easy-slider.php
+ * Minor changes for smooth scroll and sticky menu
+	the-core-parent/js/general.js
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/theme-includes/admin-styling.php
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+ * Added theme switcher after child install
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/class-fw-auto-install.php
+ * Changed the method of registering the posts thumbnail
+	the-core-parent/theme-includes/hooks.php
+ * Minor changes
+	the-core-parent/theme-includes/includes/class-tgm-plugin-activation.php
+ 
+ 
+ 2016.08.03 - version 1.0.11
+ * Added new demo "The Trip"
+	the-core-parent/footer.php
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/config/config.php
+ * Fixed comments text formatting
+	the-core-parent/templates/comments/comments-template-1.php
+	the-core-parent/templates/comments/comments-template-2.php
+ * Fixed Facebook widget when Unyson is not active
+	the-core-parent/theme-includes/widgets/fw-facebook-page-stream/class-widget-fw-facebook-page-stream.php
+ * Added anchor class for sliders
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/easy-carousel/views/easy-carousel.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/easy-slider/views/easy-slider.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/fade-slider/views/fade-slider.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/image-video-slider/views/image-video-slider.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/reload-slider/views/reload-slider.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php
+	the-core-parent/framework-customizations/theme/options/events-tab.php
+	the-core-parent/framework-customizations/theme/options/taxonomies/category.php
+	the-core-parent/framework-customizations/theme/options/taxonomies/fw-event-taxonomy-name.php
+	the-core-parent/framework-customizations/theme/options/taxonomies/fw-learning-courses-taxonomy.php
+	the-core-parent/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php
+	the-core-parent/framework-customizations/theme/options/taxonomies/product_cat.php
+	the-core-parent/framework-customizations/theme/options/taxonomies/product_tag.php
+	the-core-parent/framework-customizations/theme/options/taxonomies/topic-tag.php
+	the-core-parent/theme-includes/hooks.php
+ * Minor changes for the_core_image function
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+ * Added map info about google API key
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/map/options.php
+ 
+ 2016.07.07 - version 1.0.10
+ * Added google maps API Key
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/map/static.php
+	the-core-parent/framework-customizations/theme/options/settings.php
+ * Minor CSS changes
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/fw-theme/content.css
+	the-core-parent/styles-css/fw-theme/headers/header-5.css
+	the-core-parent/styles-css/fw-theme/headers/header-6.css
+	the-core-parent/styles-css/fw-theme/posts/posts-comments.css
+	the-core-parent/styles-css/fw-theme/posts/posts-type-3.css
+	the-core-parent/styles-css/fw-theme/shortcodes/icon-box.css
+	the-core-parent/styles-less/fw-theme/image-styling/image.less
+	the-core-parent/styles-less/fw-theme/shortcodes/icon-box.less
+ * Added team member type 2
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/team-member/views/view.php
+	the-core-parent/images/image-picker/team-member-type-1.jpg
+	the-core-parent/images/image-picker/team-member-type-2.jpg
+	the-core-parent/styles-css/fw-theme/shortcodes/team-member.css
+	the-core-parent/styles-less/fw-theme/shortcodes/team-member.less
+	the-core-parent/theme-includes/hooks.php
+ * Minor changes for portolio shortcode fonts
+	the-core-parent/theme-includes/hooks.php
+ 
+ 2016.06.13 - version 1.0.9
+ * Fixed italic font problem (in some cases)
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+ * Added boxed header option
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/js/general.js
+	the-core-parent/js/theme-admin.js
+	the-core-parent/styles-css/fw-theme/headers/header.css
+	the-core-parent/styles-css/fw-theme/portfolio/portfolio-type-2.css
+	the-core-parent/styles-less/fw-theme/headers/header-3.less
+	the-core-parent/styles-less/fw-theme/headers/header-4.less
+	the-core-parent/styles-less/fw-theme/headers/header.less
+	the-core-parent/styles-less/fw-theme/image-styling/image-overlay.less
+	the-core-parent/styles-less/fw-theme/shortcodes/gallery.less
+	the-core-parent/styles-less/fw-theme/widgets/widget-posts-list.less
+	the-core-parent/styles-less/variables.less
+	the-core-parent/theme-includes/admin-styling.php
+	the-core-parent/theme-includes/hooks.php
+ * Minor changes for prettyPhoto
+	the-core-parent/js/jquery.prettyPhoto.js
+ * Added header type 6
+	the-core-parent/css/theme-admin.css
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/section/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/section/static.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/section/views/view.php
+	the-core-parent/framework-customizations/theme/options/posts/post.php
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/images/image-picker/header-type5.jpg
+	the-core-parent/images/image-picker/header-type6.jpg
+	the-core-parent/js/general.js
+	the-core-parent/js/theme-admin.js
+	the-core-parent/styles-css/fw-theme/content.css
+	the-core-parent/styles-css/fw-theme/headers/header-5.css
+	the-core-parent/styles-css/fw-theme/headers/header-6.css
+	the-core-parent/styles-css/fw-theme/headers/header-logo.css
+	the-core-parent/styles-css/fw-theme/headers/mobile-menu.css
+	the-core-parent/styles-less/fw-theme/headers/header-5.less
+	the-core-parent/styles-less/fw-theme/headers/header-6.less
+	the-core-parent/styles-less/fw-theme/headers/header-height-calc.less
+	the-core-parent/styles-less/fw-theme/headers/header.less
+	the-core-parent/styles-less/fw-theme/woocommerce/woo-widgets/woo-widget-product-categories.less
+	the-core-parent/styles-less/fw-theme/woocommerce/woo-widgets/woo-widget-tag-cloud.less
+	the-core-parent/styles-less/variables.less
+	the-core-parent/templates/headers/header-4.php
+	the-core-parent/templates/headers/header-6.php
+	the-core-parent/theme-includes/admin-styling.php
+	the-core-parent/theme-includes/static.php
+ * Minor changes for 2 or more types of sliders on the same page
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/easy-carousel/views/easy-carousel.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/fade-slider/views/fade-slider.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/image-video-slider/static/js/image-video-slider.js
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/image-video-slider/views/image-video-slider.php
+ * Fixed accordion text styling conflict
+	the-core-parent/header.php
+	the-core-parent/js/general.js
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+ * Added possibility to add sidebar to portfolio details page
+	the-core-parent/framework-customizations/extensions/portfolio/views/single.php
+	the-core-parent/theme-includes/init.php
+ * Fixed pagination type 2 background
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/fw-theme/posts/posts-type-3.css
+	the-core-parent/styles-less/fw-theme/pagination.less
+	the-core-parent/theme-includes/helpers.php
+ * Changes for prettyPhoto on mobile devices
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/fw-theme/headers/header.css
+	the-core-parent/styles-css/fw-theme/lib/pretty-photo/pretty-photo.css
+	the-core-parent/styles-css/fw-theme/posts/posts-comments.css
+	the-core-parent/styles-less/fw-theme/posts/posts-comments-type-2.less
+	the-core-parent/styles-less/fw-theme/woocommerce/woo-checkout.less
+ * Added header type 5
+	the-core-parent/css/theme-admin.css
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/images/image-picker/header-type5.jpg
+	the-core-parent/js/general.js
+	the-core-parent/js/theme-admin.js
+	the-core-parent/styles-css/fw-theme/headers/header-5.css
+	the-core-parent/styles-less/fw-theme/headers/header-5.less
+	the-core-parent/styles-less/fw-theme/headers/header-height-calc.less
+	the-core-parent/styles-less/fw-theme/headers/header.less
+	the-core-parent/styles-less/variables.less
+	the-core-parent/templates/headers/header-5.php
+	the-core-parent/theme-includes/admin-styling.php
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/theme-includes/static.php
+	the-core-parent/visual-builder-template.php
+ * Fixed facebook widget page id
+	the-core-parent/theme-includes/widgets/fw-facebook-page-stream/class-widget-fw-facebook-page-stream.php
+ 
+ 2016.05.04 - version 1.0.8
+ * Added "title-tag" support
+	the-core-parent/blank-template.php
+	the-core-parent/coming-soon-template.php
+	the-core-parent/header.php
+	the-core-parent/js/general.js
+	the-core-parent/theme-includes/hooks.php
+ * Added extra options for Latest Posts shortcode
+	the-core-parent/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/image-video-slider/static/js/image-video-slider.js
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/image-video-slider/views/image-video-slider.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/latest-posts/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/latest-posts/views/view.php
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/images/image-picker/blog-pagination-type-1.jpg
+	the-core-parent/images/image-picker/blog-pagination-type-2.jpg
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/
+	the-core-parent/styles-less/
+	the-core-parent/templates/blog-1/content-aside.php
+	the-core-parent/templates/blog-1/content-audio.php
+	the-core-parent/templates/blog-1/content-gallery.php
+	the-core-parent/templates/blog-1/content-image.php
+	the-core-parent/templates/blog-1/content-link.php
+	the-core-parent/templates/blog-1/content-quote.php
+	the-core-parent/templates/blog-1/content-video.php
+	the-core-parent/templates/blog-1/content.php
+	the-core-parent/templates/blog-2/content-aside.php
+	the-core-parent/templates/blog-2/content-audio.php
+	the-core-parent/templates/blog-2/content-gallery.php
+	the-core-parent/templates/blog-2/content-image.php
+	the-core-parent/templates/blog-2/content-link.php
+	the-core-parent/templates/blog-2/content-quote.php
+	the-core-parent/templates/blog-2/content-video.php
+	the-core-parent/templates/blog-2/content.php
+	the-core-parent/templates/blog-3/content-aside.php
+	the-core-parent/templates/blog-3/content-audio.php
+	the-core-parent/templates/blog-3/content-gallery.php
+	the-core-parent/templates/blog-3/content-image.php
+	the-core-parent/templates/blog-3/content-link.php
+	the-core-parent/templates/blog-3/content-quote.php
+	the-core-parent/templates/blog-3/content-video.php
+	the-core-parent/templates/blog-3/content.php
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/portfolio/static/js/portfolio-script.js
+ * Added currency symbol for events
+	the-core-parent/framework-customizations/extensions/events/views/single.php
+	the-core-parent/framework-customizations/theme/options/events-tab.php
+	the-core-parent/theme-includes/helpers.php
+ * Minor changes for portfolio filter
+	the-core-parent/framework-customizations/extensions/portfolio/helpers.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/portfolio/views/view.php
+	the-core-parent/theme-includes/helpers.php
+ * Update Font Awesome
+	the-core-parent/css/font-awesome.css
+	the-core-parent/fonts/FontAwesome.otf
+	the-core-parent/fonts/fontawesome-webfont.eot
+	the-core-parent/fonts/fontawesome-webfont.svg
+	the-core-parent/fonts/fontawesome-webfont.ttf
+	the-core-parent/fonts/fontawesome-webfont.woff
+	the-core-parent/fonts/fontawesome-webfont.woff2
+ * Added compatibility with CF7
+	the-core-parent/js/general.js
+	the-core-parent/js/jquery.customInput.js
+	the-core-parent/styles-css/fw-theme/contactForm7/contactForm7.css
+	the-core-parent/styles-css/fw-theme/lib/custom-checkbox-radio/custom-checkbox-radio.css
+	the-core-parent/styles-less/fw-theme/contactForm7/contactForm7.less
+ * Added blog type 3
+	the-core-parent/comments-template.php
+	the-core-parent/comments.php
+	the-core-parent/content-single.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/latest-posts/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/views/view.php
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/images/image-picker/blog-style3.jpg
+	the-core-parent/images/image-picker/comment-type6.jpg
+	the-core-parent/images/image-picker/comments-type-1.jpg
+	the-core-parent/images/image-picker/comments-type-2.jpg
+	the-core-parent/images/image-picker/related-articles-type-1.jpg
+	the-core-parent/images/image-picker/related-articles-type-2.jpg
+	the-core-parent/js/theme-admin.js
+	the-core-parent/related-articles.php
+	the-core-parent/styles-css/
+	the-core-parent/styles-less/
+	the-core-parent/templates/blog-3/content-aside.php
+	the-core-parent/templates/blog-3/content-audio.php
+	the-core-parent/templates/blog-3/content-gallery.php
+	the-core-parent/templates/blog-3/content-image.php
+	the-core-parent/templates/blog-3/content-link.php
+	the-core-parent/templates/blog-3/content-quote.php
+	the-core-parent/templates/blog-3/content-video.php
+	the-core-parent/templates/blog-3/content.php
+	the-core-parent/templates/comments/comments-template-1.php
+	the-core-parent/templates/comments/comments-template-2.php
+	the-core-parent/templates/related-articles/related-articles-1.php
+	the-core-parent/templates/related-articles/related-articles-2.php
+	the-core-parent/theme-includes/admin-styling.php
+	the-core-parent/theme-includes/helpers.php
+ 
+ 2016.04.12 - version 1.0.7
+ * Minor changes for styling button resonsive
+	the-core-parent/css/theme-admin.css
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/revolution-slider/options.php
+	the-core-parent/js/theme-admin.js
+ * Event city and state
+	the-core-parent/framework-customizations/extensions/events/views/single.php
+ * Minor changes for wp 4.5
+	the-core-parent/js/general.js
+ * Added a CDN function for replace on shortcodes
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/accordion/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/button/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/divider/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/icon-box/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/icon/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/image-box/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/list/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/map/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/tabs/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/team-member/views/view.php
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/styles-less/fw-theme/general.less
+	the-core-parent/styles-less/variables.less
+	the-core-parent/theme-includes/admin-styling.php
+ * Coming soon minor changes
+	the-core-parent/coming-soon-template.php
+	the-core-parent/theme-includes/hooks.php
+ * Minor changes for default page title
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+ * Date format for single event
+	the-core-parent/framework-customizations/extensions/events/views/single.php
+ * Added image replacement image for youtube background video
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/section/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/section/views/view.php 
+ * Less optimisation
+	the-core-parent/styles-css/
+	the-core-parent/styles-less/
+	the-core-parent/comments.php
+	the-core-parent/framework-customizations/extensions/feedback/views/reviews.php
+	the-core-parent/framework-customizations/extensions/portfolio/views/loop-style1.php
+	the-core-parent/framework-customizations/extensions/portfolio/views/loop-style2.php
+	the-core-parent/framework-customizations/extensions/portfolio/views/loop-style3.php
+	the-core-parent/framework-customizations/extensions/portfolio/views/single.php
+	he-core-parent/framework-customizations/extensions/shortcodes/shortcodes/fw-gallery/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/image-box/views/view.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/media-image/views/view.php
+	the-core-parent/related-articles.php
+	the-core-parent/templates/blog-1/content.php
+	the-core-parent/templates/blog-2/content.php
+	the-core-parent/theme-includes/widgets/fw-login/views/widget.php
+ * Added custom login page styling options
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+ 
+ 2016.03.15 - version 1.0.6
+ * added new website "Molino"
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+ * fixed bug on portfolio in 3 columns
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/portfolio/static/js/portfolio-script.js
+ * added target option to the icon shortcode
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/icon/views/view.php
+ * added new changelog link in dashaboard footer and in theme description
+	the-core-parent/style.css
+	the-core-parent/theme-includes/hooks.php
+ * changed coming soon to action "send_headers"
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/coming-soon-template.php
+	the-core-parent/theme-includes/hooks.php
+ 
+ 2016.03.08 - version 1.0.5
+ * added new website "Hitched"
+	the-core-parent/theme-includes/hooks.php
+ * minor changes
+	the-core-parent/styles-css/fw-theme/general.css
+	the-core-parent/styles-less/fw-theme/headers/header.less
+	the-core-parent/js/theme-admin.js
+	the-core-parent/js/general.js
+	the-core-parent/theme-includes/static.php
+ 
+ 2016.03.01 - version 1.0.4
+ * added new website "Spotless"
+	the-core-parent/css/theme-admin.css
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/fw-theme/content.css
+	the-core-parent/styles-css/fw-theme/general.css
+	the-core-parent/styles-css/fw-theme/headers/header.css
+	the-core-parent/styles-css/fw-theme/headers/mobile-menu.css
+	the-core-parent/styles-less/fw-theme/headers/header-height-calc.less
+	the-core-parent/styles-less/fw-theme/headers/mobile-menu.less
+	the-core-parent/styles-less/variables.less
+	the-core-parent/theme-includes/hooks.php
+ * minor changes
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/theme-includes/includes/option-types/color-palette/class-fw-color-palette-new.php
+	the-core-parent/theme-includes/includes/option-types/color-palette/includes/palette-view.php
+	the-core-parent/theme-includes/includes/option-types/color-palette/view.php
+ * fixed posts & portfolio grid
+	the-core-parent/archive.php
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/portfolio/static.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/portfolio/static/js/portfolio-script.js
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/portfolio/views/view.php
+	the-core-parent/js/isotope.pkgd.min.js
+	the-core-parent/js/masonry.pkgd.min.js
+	the-core-parent/js/modulo-columns.js
+ * minor changes
+	the-core-parent/css/theme-admin.css
+	the-core-parent/styles-css/fw-theme/headers/header.css
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/theme-includes/hooks.php
+ 
+ 2016.02.11 - version 1.0.3
+ * added new website "Creed"
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/config/config.php
+ * minor changes
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/class-fw-auto-install.php
+	the-core-parent/theme-includes/static.php
+ * added button type 4 & responsive option for tablet landscape
+	the-core-parent/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php
+	the-core-parent/framework-customizations/extensions/forms/extensions/contact-forms/views/submit.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/easy-carousel/options/options.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/fade-slider/options/options.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/image-video-slider/options/options.php
+	the-core-parent/framework-customizations/extensions/media/extensions/slider/extensions/reload-slider/options/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/button/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/image-box/options.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php
+	the-core-parent/framework-customizations/theme/options/portfolio-tab.php
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/images/image-picker/button-style4.jpg
+	the-core-parent/js/general.js
+	the-core-parent/js/theme-admin.js
+	the-core-parent/styles-css/fw-theme/content.css
+	the-core-parent/styles-less/fw-theme/buttons/buttons-style-1.less
+	the-core-parent/styles-less/fw-theme/buttons/buttons-style-2.less
+	the-core-parent/styles-less/fw-theme/buttons/buttons-style-3.less
+	the-core-parent/styles-less/fw-theme/buttons/buttons-style-4.less
+	the-core-parent/styles-less/fw-theme/buttons/buttons.less
+	the-core-parent/styles-less/fw-theme/shortcodes/forms.less
+	the-core-parent/styles-less/fw-theme/typography.less
+	the-core-parent/styles-less/variables.less
+	the-core-parent/theme-includes/backend-static.php
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+ * minor changes for password protected page
+	the-core-parent/visual-builder-template.php
+ * added class "fa-fw" to accordion icon
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/accordion/views/view.php
+ * minor changes
+	the-core-parent/functions.php
+	the-core-parent/js/general.js
+	the-core-parent/styles-less/fw-theme/general.less
+	the-core-parent/theme-includes/admin-styling.php
+	the-core-parent/theme-includes/backend-static.php
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/theme-includes/includes/content-width.php
+	the-core-parent/theme-includes/includes/sub-includes.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/class-fw-auto-install.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/config/config.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/js/admin_demo_content_install.js
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/js/super_admin_demo_content_install.js
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/views/install_setup.php
+	the-core-parent/theme-includes/init.php
+	the-core-parent/theme-includes/menus.php
+	the-core-parent/theme-includes/posts.php
+	the-core-parent/theme-includes/static.php
+	the-core-parent/theme-includes/widgets/fw-facebook-page-stream/class-widget-fw-facebook-page-stream.php
+	the-core-parent/theme-includes/widgets/fw-facebook-page-stream/views/widget.php
+	the-core-parent/theme-includes/widgets/fw-flickr/class-widget-fw-flickr.php
+	the-core-parent/theme-includes/widgets/fw-instagram/class-widget-fw-instagram.php
+	the-core-parent/theme-includes/widgets/fw-login/class-widget-fw-login.php
+	the-core-parent/theme-includes/widgets/fw-posts/class-widget-fw-posts.php
+	the-core-parent/theme-includes/widgets/fw-twitter/class-widget-fw-twitter.php
+	the-core-parent/theme-includes/widgets/fw-twitter/views/widget.php
+ 
+ 2016.01.02 - version 1.0.2
+ * auto setup changes
+	the-core-parent/js/general.js
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/class-fw-auto-install.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/config/config.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/js/admin_demo_content_install.js
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/js/super_admin_demo_content_install.js
+ * minor changes
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/testimonials/views/view.php
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/fw-theme/content.css
+	the-core-parent/styles-css/fw-theme/shortcodes/dividers.css
+	the-core-parent/styles-css/fw-theme/shortcodes/testimonials.css
+	the-core-parent/theme-includes/hooks.php
+ * added compatibility with "give plugin"
+	the-core-parent/css/theme-admin.css
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/calendar/options.php
+	the-core-parent/framework-customizations/extensions/sidebars/views/backend-main-view.php
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/fw-theme/give/give.css
+	the-core-parent/styles-css/fw-theme/woocommerce/woo-checkout.css
+	the-core-parent/styles-less/fw-theme.less
+	the-core-parent/styles-less/fw-theme/footer/footer-menu.less
+	the-core-parent/styles-less/fw-theme/give/give-widget.less
+	the-core-parent/styles-less/fw-theme/give/give.less
+	the-core-parent/styles-less/fw-theme/headers/top-nav-menu.less
+	the-core-parent/styles-less/fw-theme/posts/posts-details.less
+	the-core-parent/theme-includes/hooks.php
+ * minor changes
+	the-core-parent/styles-css/fw-theme/buddypress/buddypress-members.css
+	the-core-parent/styles-css/fw-theme/buddypress/buddypress-registered-group.css
+	the-core-parent/styles-less/fw-theme/buddypress/buddypress-members.less
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/class-fw-auto-install.php
+ 
+ 2016.20.01 - version 1.0.1
+ * added new website "the pathfinder"
+	the-core-parent/theme-includes/hooks.php
+ * added blank template
+	the-core-parent/blank-template.php
+	the-core-parent/js/theme-admin.js
+	the-core-parent/theme-includes/admin-styling.php
+	the-core-parent/theme-includes/hooks.php
+ * minor changes
+	the-core-parent/theme-includes/widgets/fw-flickr/views/widget.php
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/theme-includes/helpers.php
+ * sticky header menu smooth scroll
+	the-core-parent/js/general.js
+ * minor changes for fonts subset
+	the-core-parent/theme-includes/helpers.php
+ * minor changes for including scripts for shortcodes
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/countdown/static.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/slideshow/static.php
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/testimonials/static.php
+	the-core-parent/js/theme-admin.js
+ * compatibility with bodypress
+	the-core-parent/framework-customizations/theme/options/buddypress-tab.php
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/fw-theme/buddypress/buddypress-members.css
+	the-core-parent/styles-css/fw-theme/buddypress/buddypress-profile.css
+	the-core-parent/styles-css/fw-theme/buddypress/buddypress-registered-group.css
+	the-core-parent/styles-css/fw-theme/buddypress/buddypress-search.css
+	the-core-parent/styles-css/fw-theme/buddypress/buddypress-settings.css
+	the-core-parent/styles-css/fw-theme/buddypress/buddypress-widget/buddypress-widget-login.css
+	the-core-parent/styles-css/fw-theme/buddypress/buddypress.css
+	the-core-parent/styles-less/fw-theme.less
+	the-core-parent/styles-less/fw-theme/buddypress/buddypress-members.less
+	the-core-parent/styles-less/fw-theme/buddypress/buddypress-profile.less
+	the-core-parent/styles-less/fw-theme/buddypress/buddypress-registered-group.less
+	the-core-parent/styles-less/fw-theme/buddypress/buddypress-search.less
+	the-core-parent/styles-less/fw-theme/buddypress/buddypress-settings.less
+	the-core-parent/styles-less/fw-theme/buddypress/buddypress-widget/buddypress-widget-login.less
+	the-core-parent/styles-less/fw-theme/buddypress/buddypress-widget/buddypress-widget-members.less
+	the-core-parent/styles-less/fw-theme/buddypress/buddypress-widget/buddypress-widget.less
+	the-core-parent/styles-less/fw-theme/buddypress/buddypress.less
+	the-core-parent/theme-includes/helpers.php
+ * minor changes
+	the-core-parent/styles-css/fw-theme/content.css
+	the-core-parent/theme-includes/backend-static.php
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/framework-customizations/extensions/events/views/single.php
+	the-core-parent/styles-css/fw-theme/content.css
+ * minor changes for sticky menu
+	the-core-parent/js/general.js
+ * compile less with plugin
+	the-core-parent/theme-includes/hooks.php
+	the-core-child/style.css
+	the-core-parent/coming-soon-template.php
+ * compatibility with bbpress
+	the-core-parent/framework-customizations/theme/options/bbpress-tab.php
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/framework-customizations/theme/options/taxonomies/topic-tag.php
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/fw-theme/bbpress/bbpress-breadcrumbs.css
+	the-core-parent/styles-css/fw-theme/bbpress/bbpress-reply-form.css
+	the-core-parent/styles-css/fw-theme/bbpress/bbpress-search.css
+	the-core-parent/styles-css/fw-theme/bbpress/bbpress-user-edit.css
+	the-core-parent/styles-css/fw-theme/bbpress/bbpress-widget/widget-bbpress-login.css
+	the-core-parent/styles-css/fw-theme/bbpress/bbpress-widget/widget-bbpress-recent-replies.css
+	the-core-parent/styles-css/fw-theme/bbpress/bbpress-widget/widget-bbpress-recent-topics.css
+	the-core-parent/styles-css/fw-theme/bbpress/bbpress-widget/widget-bbpress-search.css
+	the-core-parent/styles-css/fw-theme/bbpress/bbpress-widget/widget-bbpress-statistics.css
+	the-core-parent/styles-css/fw-theme/bbpress/bbpress.css
+	the-core-parent/styles-less/fw-theme.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress-reply-form.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress-search.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress-user-edit.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress-widget/bbpress-widget.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress-widget/widget-bbpress-forum-list.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress-widget/widget-bbpress-login.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress-widget/widget-bbpress-recent-replies.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress-widget/widget-bbpress-recent-topics.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress-widget/widget-bbpress-search.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress-widget/widget-bbpress-statistics.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress-widget/widget-bbpress-topic-list.less
+	the-core-parent/styles-less/fw-theme/bbpress/bbpress.less
+	the-core-parent/styles-less/less-processor/Less.php
+	the-core-parent/styles-less/variables.less
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+ * auto setup v.2
+	the-core-parent/theme-includes/hooks.php
+	the-core-parent/theme-includes/includes/sub-includes.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/class-fw-auto-install.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/config/config.php
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/css/styles.css
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/js/admin_auto_install.js
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/js/simple_auto_install.js
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/js/super_admin_auto_install.js
+	the-core-parent/theme-includes/includes/sub-includes/auto-setup/views/install_setup.php
+ * minor changes
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+ * added scroll to top button
+	the-core-parent/framework-customizations/theme/options/settings.php
+	the-core-parent/header.php
+	the-core-parent/js/general.js
+	the-core-parent/styles-css/fw-theme/general.css
+	the-core-parent/styles-less/fw-theme/general.less
+	the-core-parent/styles-less/variables.less
+	the-core-parent/theme-includes/admin-styling.php
+	the-core-parent/theme-includes/helpers.php
+ * minor changes for section overlap in firefox
+	the-core-parent/framework-customizations/extensions/shortcodes/shortcodes/section/views/view.php
+	the-core-parent/styles-css/fw-theme/content.css
+ * replace of function "fw_ext_shortcodes_decode_attr"
+	the-core-parent/theme-includes/helpers.php
+	the-core-parent/theme-includes/hooks.php
+
+ 2015.20.11 - version 1.0
+ * First release!
