@@ -9,11 +9,20 @@ Text Domain: the-core
 Tags: left-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
 */
 
+body,
+html {
+    background-color: #e5e5e5;
+}
+
+.tp-bannertimer.tp-bottom {
+    background: #b10101 !important;
+}
+
 .mmenu-link i {
     color: white;
 }
 
-.fw-header-main > .fw-container {
+.fw-header-main>.fw-container {
     /*padding-top: 35px;*/
     /*padding-bottom: 35px;*/
     padding: 0 !important;
@@ -71,4 +80,46 @@ Tags: left-sidebar, custom-background, custom-colors, custom-header, custom-menu
 .fw-top-logo-left .fw-wrap-logo,
 .fw-logo-text .primary-navigation {
     margin-top: 0 !important;
+}
+
+.fw-header-main .fw-top-bar-social {
+    position: absolute;
+    right: 15px;
+    margin-top: 0;
+    top: 21px;
+}
+
+.fw-header-main .fw-top-bar-social i.fa-facebook{
+    color: #3b5998;
+}
+
+.fw-header-main .fw-top-bar-social i.fa-twitter {
+    color: #1da1f2;
+}
+
+.fw-header-main .fw-top-bar-social i.fa-google-plus {
+    color: #FFFFFF;
+}
+
+.fw-header-main .fw-top-bar-social i.fa-youtube {
+    color: #cc181e;
+}
+
+.fw-header-main .fw-top-bar-social i.fa-pinterest-p {
+    color: #bd081c;
+}
+
+.fw-site-navigation > ul > li ul > li {
+    background-color: #FFFFFF;
+}
+.fw-site-navigation > ul > li ul > li  a {
+    color: black;
+    font-size: 18px;
+    font-family: 'Open Sans Condensed';
+    font-weight: 400;
+}
+
+.primary-navigation > ul > li > ul {
+    left: 0 !important;
+    top: 52px;
 }

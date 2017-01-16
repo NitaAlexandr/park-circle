@@ -3597,7 +3597,7 @@ $options = array(
 															'label' => __('Right', 'the-core')
 														),
 														'left-choice' => array(
-															'value' => 'fw-top-social-left',
+															'value' => '    fw-top-social-left',
 															'label' => __('Left', 'the-core')
 														),
 														'value' => 'fw-top-social-right',
