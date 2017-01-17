@@ -35,9 +35,6 @@ html {
     font-size: 20px;
     font-family: 'Open Sans Condensed';
     padding: 20px 20px;
-    /* font-style: normal; */
-    /* font-size: 25px; */
-    /* letter-spacing: 1px; */
     line-height: 25px;
     display: block;
 }
@@ -122,4 +119,59 @@ html {
 .primary-navigation > ul > li > ul {
     left: 0 !important;
     top: 52px;
+}
+
+.fw-testimonials .fw-testimonials-text p {
+    font-weight: 400 !important;
+    margin: 0 !important;
+    font-size: 20px;
+    line-height: 25px;
+    /*font-family: 'Open Sans';*/
+    font-family: 'Lato';
+    display: block;
+    font-style: normal;
+    color: #1f1e1e;
+}
+
+.slider-one .fw-testimonials-title {
+    font-family: 'Open Sans Condensed' !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    font-size: 30px !important;
+    letter-spacing: 1px !important;
+    line-height: 30px !important;
+    color: #1f1e1e;
+}
+
+.slider-home-one {
+    padding: 50px 50px;
+}
+
+.slider-home-one>.fw-container {
+    padding: 50px 50px;
+    background: #ececec;
+}
+
+.fw-testimonials .fw-testimonials-pagination a {
+    width: 60px;
+    height: 2px;
+    border-radius: 0;
+    background-color: #161616 !important;
+    opacity: 1;
+}
+
+.fw-testimonials .fw-testimonials-pagination a.selected {
+    background-color: #b10101 !important;
+    opacity: 1;
+}
+
+.slide-button-link {
+    background-color: #09b9eb;
+    color: #000000;
+    padding: 15px;
+    font-family: 'Open Sans Condensed' !important;
+    margin-top: 50px;
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
 }
