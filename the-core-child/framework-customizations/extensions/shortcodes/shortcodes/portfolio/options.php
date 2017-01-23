@@ -45,7 +45,13 @@ $options = array(
 	),
 	'main_link'  => array(
 		'label' => __( 'Main Link', 'the-core' ),
-		'desc'  => __( 'Set a link for the bottom from bottom side of the grid', 'the-core' ),
+		'desc'  => __( 'Set a link for the buttom from bottom side of the grid', 'the-core' ),
+		'type'  => 'text',
+		'value' => '',
+	),
+	'main_link_text'  => array(
+		'label' => __( 'Main Link Text', 'the-core' ),
+		'desc'  => __( 'Set the text for the link for the buttom from bottom side of the grid', 'the-core' ),
 		'type'  => 'text',
 		'value' => '',
 	),

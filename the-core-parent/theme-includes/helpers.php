@@ -562,6 +562,11 @@ if ( ! function_exists( 'the_core_logo' ) ):
 	 * @param boolean $wrap
 	 */
 	function the_core_logo( $wrap = false ) {
+
+		$the_core_header_settings       = defined( 'FW' ) ? fw_get_db_settings_option( 'header_settings' ) : array();
+		$the_core_enable_header_socials = isset( $the_core_header_settings['enable_header_top_bar']['yes']['enable_header_socials']['selected_value'] ) ? $the_core_header_settings['enable_header_top_bar']['yes']['enable_header_socials']['selected_value'] : 'no';
+		$the_core_enable_header_top_bar = isset( $the_core_header_settings['enable_header_top_bar']['selected_value'] ) ? $the_core_header_settings['enable_header_top_bar']['selected_value'] : 'no';
+
 		$the_core_logo_settings['logo']['selected_value']   = 'text';
 		$the_core_logo_settings['logo']['text']['title']    = get_bloginfo( 'name' );
 		$the_core_logo_settings['logo']['text']['subtitle'] = '';
@@ -607,6 +612,13 @@ if ( ! function_exists( 'the_core_logo' ) ):
 				<?php if ($wrap): ?>
 					</div>
 				<?php endif; ?>
+				<div class="mobile-socials-area">
+					<?php
+						if ( $the_core_enable_header_top_bar == 'yes' ) {
+							the_core_top_bar( array('top_bar_text' => '', 'enable_header_socials' => $the_core_enable_header_socials, 'enable_search' => false, 'search_type' => '', 'placeholder_text' => '', 'search_position' => '') );
+						}
+					?>
+				</div>
 			</div>
 		<?php endif; ?>
 	<?php }

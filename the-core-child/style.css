@@ -14,12 +14,32 @@ html {
     background-color: #e5e5e5;
 }
 
+.fw-site-navigation > ul > li ul > li a,
+.slider-one .fw-testimonials-title,
+.one-line-contact span,
+.widget-under-title,
+.fw-footer-widgets .widget-title,
+.fw-site-navigation > ul > li > a,
+.special-headers-new .fw-special-subtitle,
+.special-headers-new h2.fw-special-title,
+.slide-button-link,
+.portfolio-title,
+.portfolio-subtitle,
+.postlist-col h2.entry-title a,
+.homepage-services-portfolio .fw-portfolio-title a,
+div.page-custom-title .fw-special-title,
+.postlist.postlist-grid .comments-link span,
+.postlist-col .entry-date {
+    font-family: 'Ubuntu Condensed';
+
+}
+
 .fw-contact-form .fw-btn {
     background-color: #09b9eb !important;
     color: #000000 !important;
 }
 
-.fw-contact-form .fw-row [class^="fw-col-"]{
+.fw-contact-form .fw-row [class^="fw-col-"] {
     padding-left: 0;
     padding-right: 0;
 }
@@ -28,13 +48,6 @@ html {
     font-style: normal !important;
 }
 
-.fw-section-space-lg .fw-main-row-custom .fw-container,
-.fw-section-space-lg .fw-main-row .fw-container,
-.fw-section-space-lg .fw-main-row-custom .fw-container-fluid,
-.fw-section-space-lg .fw-main-row .fw-container-fluid {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 
 .wrap-forms .form-builder-item > div > label {
     color: #5b5b5b;
@@ -49,14 +62,13 @@ html {
 
 .special-headers-new .fw-special-subtitle,
 .special-headers-new h2.fw-special-title {
-    font-family: 'Open Sans Condensed';
     display: block;
     font-style: normal;
     text-align: center;
 }
 
 .special-headers-new .fw-special-subtitle {
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     font-size: 30px;
     letter-spacing: 0;
     max-width: 500px;
@@ -82,7 +94,6 @@ html {
     margin: 0 !important;
     color: #FFFFFF !important;
     font-size: 18px;
-    font-family: 'Open Sans Condensed';
     padding: 20px 20px;
     line-height: 25px;
     display: block;
@@ -91,7 +102,6 @@ html {
 .fw-footer-widgets .widget-title {
     margin: 0 !important;
     color: #FFFFFF !important;
-    font-family: 'Open Sans Condensed';
     padding: 20px 0;
     line-height: 25px;
     display: block;
@@ -103,7 +113,6 @@ html {
 .widget-under-title {
     margin: 0 !important;
     color: #FFFFFF !important;
-    font-family: 'Open Sans Condensed';
     padding: 1px 0;
     line-height: 25px;
     display: block;
@@ -117,7 +126,6 @@ html {
 }
 
 .one-line-contact span {
-    font-family: 'Open Sans Condensed';
     display: block;
     font-style: normal;
     font-weight: 500 !important;
@@ -148,12 +156,13 @@ html {
 
 .fw-wrap-logo .fw-site-logo strong {
     color: white !important;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 35px;
+    /*font-weight: 800;*/
+    letter-spacing: normal;
 }
 
 .site-main {
-    top: -102px;
+    top: -90px;
 }
 
 .fw-site-navigation > ul > li.current-menu-item {
@@ -177,13 +186,6 @@ html {
 .fw-top-logo-left .fw-wrap-logo,
 .fw-logo-text .primary-navigation {
     margin-top: 0 !important;
-}
-
-.fw-header-main .fw-top-bar-social {
-    position: absolute;
-    right: 15px;
-    margin-top: 0;
-    top: 21px;
 }
 
 .fw-header-main .fw-top-bar-social i.fa-facebook {
@@ -213,7 +215,6 @@ html {
 .fw-site-navigation > ul > li ul > li a {
     color: black;
     font-size: 18px;
-    font-family: 'Open Sans Condensed';
     font-weight: 600;
 }
 
@@ -222,23 +223,21 @@ html {
     top: 52px;
 }
 
+.fw-testimonials .fw-testimonials-text,
 .fw-testimonials .fw-testimonials-text p {
-    font-weight: 400 !important;
+    font-weight: 200 !important;
     margin: 0 !important;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 30px;
     /*font-family: 'Open Sans';*/
-    font-family: 'Lato';
     display: block;
     font-style: normal;
     color: #1f1e1e;
 }
 
 .slider-one .fw-testimonials-title {
-    font-family: 'Open Sans Condensed' !important;
     font-style: normal !important;
     letter-spacing: 1px !important;
-    line-height: 30px !important;
     color: #1f1e1e;
     font-weight: 800;
     font-size: 50px;
@@ -272,7 +271,6 @@ html {
     background-color: #09b9eb;
     color: #000000;
     padding: 15px;
-    font-family: 'Open Sans Condensed' !important;
     margin: 25px auto;
     width: 200px;
     text-align: center;
@@ -300,7 +298,6 @@ html {
 
 .portfolio-title,
 .portfolio-subtitle {
-    font-family: 'Open Sans Condensed';
     display: block;
     font-style: normal;
     margin: 25px auto;
@@ -313,13 +310,11 @@ html {
 
 .postlist-col h2.entry-title a,
 .homepage-services-portfolio .fw-portfolio-title a {
-    font-size: 25px;
-    /*font-size: 30px;*/
+    font-size: 30px;
     line-height: 30px;
-    font-family: 'Open Sans Condensed';
     color: #000000;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     display: block;
 }
@@ -358,24 +353,31 @@ html {
 
 .postlist.postlist-grid .postlist-col .entry-content,
 .homepage-services-portfolio .fw-portfolio-content {
-    font-family: 'Open Sans Condensed';
     display: block;
     font-style: normal;
     text-align: center;
-    font-weight: 400 !important;
-    font-size: 30px !important;
+    font-weight: 200 !important;
+    font-size: 20px !important;
     color: #161616;
     letter-spacing: 0;
     line-height: 30px;
 }
 
+.archive .fw-section-image .fw-special-title,
+.topic-tag .fw-section-image .fw-special-title,
+.fw-testimonials .fw-testimonials-text,
+.fw-testimonials .fw-testimonials-text p,
+.homepage-services-portfolio .fw-portfolio-content,
+.postlist.postlist-grid .postlist-col .entry-content {
+    font-family: 'Ubuntu';
+}
+
 .postlist.postlist-grid .comments-link span,
 .postlist-col .entry-date {
-    font-family: 'Open Sans Condensed';
     display: inline-block;
     font-style: normal;
     text-align: center;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     font-size: 20px !important;
     color: #545353;
     letter-spacing: 0;
@@ -398,13 +400,13 @@ html {
     text-transform: none;
 }
 
-.fw-footer-bar{
+.fw-footer-bar {
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 0;
 }
 
-.fw-footer-bar2{
+.fw-footer-bar2 {
     padding-top: 10px;
     padding-right: 10px;
 }
@@ -414,7 +416,6 @@ html {
 }
 
 div.page-custom-title .fw-special-title {
-    font-family: 'Open Sans Condensed';
     display: block;
     font-style: normal;
     text-align: center;
@@ -423,16 +424,16 @@ div.page-custom-title .fw-special-title {
     letter-spacing: -2px;
 }
 
-.contact-form-area>.fw-container{
+.contact-form-area > .fw-container {
     background-color: #f3f3f3;
 }
 
-.contact-form-area>.fw-container .fw-col-inner{
+.contact-form-area > .fw-container .fw-col-inner {
     padding: 40px 0px 10px 0px;
 }
 
 .contact-form-area-heading .fw-heading > * {
-    font-family: 'Lato' !important;
+    font-family: 'Ubuntu Condensed';
     font-style: normal !important;
 }
 
@@ -441,15 +442,14 @@ div.page-custom-title .fw-special-title {
     border-bottom: 5px #bd081c solid;
 }
 
-
-.image-about-us>.fw-container-fluid{
+.image-about-us > .fw-container-fluid {
     position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .fw-overlay-1 .fw-block-image-child .fw-block-image-overlay i[class*='fw-icon-'],
-
 .paging-navigation .page-numbers.prev,
 nav.woocommerce-pagination .page-numbers.prev,
 .paging-navigation .page-numbers.next,
@@ -457,9 +457,64 @@ nav.woocommerce-pagination .page-numbers.next {
     background-color: #09b9eb;
 }
 
+.tparrows::before,
 .paging-navigation .page-numbers,
 nav.woocommerce-pagination .page-numbers {
-    color: #09b9eb;
+    color: #09b9eb !important;
+}
+
+.mmenu-link {
+    line-height: 90px;
+}
+
+.mmenu-link i:before {
+    padding-right: 5px;
+}
+
+.mobile-socials-area .fw-top-bar-social {
+    text-align: center;
+    margin-top: -10px;
+    display: block;
+}
+
+.mobile-socials-area .fw-top-bar-social a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media all and (max-width: 479px) {
+
+    .fw-section-space-lg .fw-main-row-custom .fw-container,
+    .fw-section-space-lg .fw-main-row .fw-container,
+    .fw-section-space-lg .fw-main-row-custom .fw-container-fluid,
+    .fw-section-space-lg .fw-main-row .fw-container-fluid {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .site-main > section > .fw-container-fluid {
+        padding-top: 100px;
+    }
+
+    .fw-top-logo-left .fw-wrap-logo strong {
+        padding-left: 5px;
+    }
+
+    .fw-top-logo-right .fw-wrap-logo strong {
+        padding-right: 5px;
+    }
+
+    .fw-top-logo-left .fw-wrap-logo,
+    .fw-top-logo-right .fw-wrap-logo {
+        float: left !important;
+        max-width: 50%;
+    }
+
+    .mmenu-link {
+        float: right !important;
+        max-width: 25%;
+        margin: 0 !important;
+    }
 }
 
 @media all and (min-width: 768px) {
@@ -485,18 +540,49 @@ nav.woocommerce-pagination .page-numbers {
 
 @media all and (min-width: 1024px) {
 
+    .fw-section-space-lg .fw-main-row-custom .fw-container,
+    .fw-section-space-lg .fw-main-row .fw-container,
+    .fw-section-space-lg .fw-main-row-custom .fw-container-fluid,
+    .fw-section-space-lg .fw-main-row .fw-container-fluid {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .about-us-content {
         background-color: transparent !important;
     }
 
-    .about-us-content>.fw-container {
+    .services-text-container > .fw-container,
+    .about-us-content > .fw-container {
         padding-left: 50px;
         padding-right: 50px;
         max-width: 960px;
         background-color: #f2f2f2;
     }
 
-    .about-us-content>.fw-container h3 {
+    .about-us-content > .fw-container h3 {
         margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .desktop-socials-icons {
+        display: none;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .mobile-socials-area {
+        display: none;
+    }
+
+    #fw-menu-primary,
+    .desktop-socials-icons {
+        display: inline-block;
+    }
+
+    .desktop-socials-icons .fw-top-bar-social {
+        top: -27px;
+        position: relative;
     }
 }

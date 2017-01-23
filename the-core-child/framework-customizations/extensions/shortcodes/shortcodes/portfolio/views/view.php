@@ -167,19 +167,11 @@ if( isset($term->parent) && $term->parent > 0 ) {
 		true
 	);
 }
+
+$a_flag = 1;
 ?>
 <div class="fw-col-inner">
 	<div class="tf-sh-<?php echo esc_attr( $atts['unique_id'] ); ?> fw-portfolio <?php echo esc_attr($portfolio_columns) . ' ' . esc_attr($content_position) . ' ' . esc_attr($content_alignment); ?> <?php echo esc_attr($atts['class']); ?> <?php echo esc_attr($atts['portfolio_type']); ?>" <?php echo $data_animation; ?>>
-<!--		--><?php
-//		if($atts['title'] != '')
-//		{
-//			echo '<h2 class="portfolio-title">' . $atts['title'] . '</h2>';
-//		}
-//		if($atts['sub_title'] != '')
-//		{
-//			echo '<h4 class="portfolio-subtitle">' . $atts['sub_title'] . '</h4>';
-//		}
-//		?>
 		<?php fw_theme_portfolio_filter( 'yes', $uniqid, true, $query->posts ); ?>
 		<?php if ( $query->have_posts() ) : ?>
 			<div class="row fw-portfolio-wrapper">
@@ -187,6 +179,11 @@ if( isset($term->parent) && $term->parent > 0 ) {
 					<?php
 					while ( $query->have_posts() ) : $query->the_post();
 						get_template_part( 'framework-customizations/extensions/portfolio/views/loop', $portfolio_style );
+						if( ($a_flag == $columns_number || $a_flag%$columns_number == 0) &&  $a_flag !=1 )
+						{
+							echo '<p>&nbsp;</p>';
+						}
+						$a_flag++;
 					endwhile;
 					?>
 				</ul>
@@ -197,7 +194,13 @@ if( isset($term->parent) && $term->parent > 0 ) {
 
 		if($atts['main_link'] != '')
 		{
-			?> <a class="slide-button-link" href="<?php  echo $atts['main_link']; ?>"><?php _e('More Services', 'the-core');?></a><?php
+			?>
+			<a class="slide-button-link" href="<?php  echo $atts['main_link']; ?>">
+				<?php
+				echo $atts['main_link_text']!=''  ?  do_shortcode($atts['main_link_text']) : __('More Services', 'the-core')
+				?>
+			</a>
+			<?php
 		}
 		?>
 	</div><!-- /.fw-portfolio -->

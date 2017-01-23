@@ -17,11 +17,13 @@ $the_core_placeholder_text      = isset( $the_core_header_settings['enable_searc
 			} ?>
 			<div class="fw-nav-wrap" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
 				<?php fw_theme_nav_menu( 'primary' ); ?>
+				<div class="desktop-socials-icons">
+					<?php if ( $the_core_enable_header_top_bar == 'yes' ) {
+						the_core_top_bar( array('top_bar_text' => $the_core_top_bar_text, 'enable_header_socials' => $the_core_enable_header_socials, 'enable_search' => $the_core_enable_search, 'search_type' => $the_core_search_type, 'placeholder_text' => $the_core_placeholder_text, 'search_position' => $the_core_search_position) );
+					} ?>
+				</div>
 			</div>
 		</div>
-        <?php if ( $the_core_enable_header_top_bar == 'yes' ) {
-            the_core_top_bar( array('top_bar_text' => $the_core_top_bar_text, 'enable_header_socials' => $the_core_enable_header_socials, 'enable_search' => $the_core_enable_search, 'search_type' => $the_core_search_type, 'placeholder_text' => $the_core_placeholder_text, 'search_position' => $the_core_search_position) );
-        } ?>
 	</div>
 	<?php if($the_core_enable_search == 'yes' && $the_core_search_type == 'fw-mini-search') {
 		the_core_header_mini_search($the_core_placeholder_text);

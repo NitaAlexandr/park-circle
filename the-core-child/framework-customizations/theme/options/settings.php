@@ -263,76 +263,76 @@ $options = array(
                                         'value' => '#f1eee9',
                                         'type' => 'color-picker',
                                     ),
-                                    'website_bg' => array(
-                                        'type' => 'background-image',
-                                        'value' => 'none',
-                                        'label' => __('', 'the-core'),
-                                        'desc' => __('Select the patern overlay', 'the-core'),
-                                        'choices' => array(
-                                            'none' => array(
-                                                'icon' => $the_core_template_directory . '/images/patterns/no_pattern.jpg',
-                                                'css' => array(
-                                                    'background-image' => 'none'
-                                                ),
-                                            ),
-                                            'bg-1' => array(
-                                                'icon' => $the_core_template_directory . '/images/patterns/diagonal_bottom_to_top_pattern_preview.jpg',
-                                                'css' => array(
-                                                    'background-image' => $the_core_template_directory . '/images/patterns/diagonal_bottom_to_top_pattern.png',
-                                                    'background-repeat' => 'repeat',
-                                                )
-                                            ),
-                                            'bg-2' => array(
-                                                'icon' => $the_core_template_directory . '/images/patterns/diagonal_top_to_bottom_pattern_preview.jpg',
-                                                'css' => array(
-                                                    'background-image' => $the_core_template_directory . '/images/patterns/diagonal_top_to_bottom_pattern.png',
-                                                    'background-repeat' => 'repeat',
-                                                )
-                                            ),
-                                            'bg-3' => array(
-                                                'icon' => $the_core_template_directory . '/images/patterns/dots_pattern_preview.jpg',
-                                                'css' => array(
-                                                    'background-image' => $the_core_template_directory . '/images/patterns/dots_pattern.png',
-                                                    'background-repeat' => 'repeat',
-                                                )
-                                            ),
-                                            'bg-4' => array(
-                                                'icon' => $the_core_template_directory . '/images/patterns/noise_pattern_preview.jpg',
-                                                'css' => array(
-                                                    'background-image' => $the_core_template_directory . '/images/patterns/noise_pattern.png',
-                                                    'background-repeat' => 'repeat',
-                                                )
-                                            ),
-                                            'bg-5' => array(
-                                                'icon' => $the_core_template_directory . '/images/patterns/romb_pattern_preview.jpg',
-                                                'css' => array(
-                                                    'background-image' => $the_core_template_directory . '/images/patterns/romb_pattern.png',
-                                                    'background-repeat' => 'repeat',
-                                                )
-                                            ),
-                                            'bg-6' => array(
-                                                'icon' => $the_core_template_directory . '/images/patterns/square_pattern_preview.jpg',
-                                                'css' => array(
-                                                    'background-image' => $the_core_template_directory . '/images/patterns/square_pattern.png',
-                                                    'background-repeat' => 'repeat',
-                                                )
-                                            ),
-                                            'bg-7' => array(
-                                                'icon' => $the_core_template_directory . '/images/patterns/vertical_lines_pattern_preview.jpg',
-                                                'css' => array(
-                                                    'background-image' => $the_core_template_directory . '/images/patterns/vertical_lines_pattern.png',
-                                                    'background-repeat' => 'repeat',
-                                                )
-                                            ),
-                                            'bg-8' => array(
-                                                'icon' => $the_core_template_directory . '/images/patterns/waves_pattern_preview.jpg',
-                                                'css' => array(
-                                                    'background-image' => $the_core_template_directory . '/images/patterns/waves_pattern.png',
-                                                    'background-repeat' => 'repeat',
-                                                )
-                                            ),
-                                        )
-                                    )
+//                                    'website_bg' => array(
+//                                        'type' => 'background-image',
+//                                        'value' => 'none',
+//                                        'label' => __('', 'the-core'),
+//                                        'desc' => __('Select the patern overlay', 'the-core'),
+//                                        'choices' => array(
+//                                            'none' => array(
+//                                                'icon' => $the_core_template_directory . '/images/patterns/no_pattern.jpg',
+//                                                'css' => array(
+//                                                    'background-image' => 'none'
+//                                                ),
+//                                            ),
+//                                            'bg-1' => array(
+//                                                'icon' => $the_core_template_directory . '/images/patterns/diagonal_bottom_to_top_pattern_preview.jpg',
+//                                                'css' => array(
+//                                                    'background-image' => $the_core_template_directory . '/images/patterns/diagonal_bottom_to_top_pattern.png',
+//                                                    'background-repeat' => 'repeat',
+//                                                )
+//                                            ),
+//                                            'bg-2' => array(
+//                                                'icon' => $the_core_template_directory . '/images/patterns/diagonal_top_to_bottom_pattern_preview.jpg',
+//                                                'css' => array(
+//                                                    'background-image' => $the_core_template_directory . '/images/patterns/diagonal_top_to_bottom_pattern.png',
+//                                                    'background-repeat' => 'repeat',
+//                                                )
+//                                            ),
+//                                            'bg-3' => array(
+//                                                'icon' => $the_core_template_directory . '/images/patterns/dots_pattern_preview.jpg',
+//                                                'css' => array(
+//                                                    'background-image' => $the_core_template_directory . '/images/patterns/dots_pattern.png',
+//                                                    'background-repeat' => 'repeat',
+//                                                )
+//                                            ),
+//                                            'bg-4' => array(
+//                                                'icon' => $the_core_template_directory . '/images/patterns/noise_pattern_preview.jpg',
+//                                                'css' => array(
+//                                                    'background-image' => $the_core_template_directory . '/images/patterns/noise_pattern.png',
+//                                                    'background-repeat' => 'repeat',
+//                                                )
+//                                            ),
+//                                            'bg-5' => array(
+//                                                'icon' => $the_core_template_directory . '/images/patterns/romb_pattern_preview.jpg',
+//                                                'css' => array(
+//                                                    'background-image' => $the_core_template_directory . '/images/patterns/romb_pattern.png',
+//                                                    'background-repeat' => 'repeat',
+//                                                )
+//                                            ),
+//                                            'bg-6' => array(
+//                                                'icon' => $the_core_template_directory . '/images/patterns/square_pattern_preview.jpg',
+//                                                'css' => array(
+//                                                    'background-image' => $the_core_template_directory . '/images/patterns/square_pattern.png',
+//                                                    'background-repeat' => 'repeat',
+//                                                )
+//                                            ),
+//                                            'bg-7' => array(
+//                                                'icon' => $the_core_template_directory . '/images/patterns/vertical_lines_pattern_preview.jpg',
+//                                                'css' => array(
+//                                                    'background-image' => $the_core_template_directory . '/images/patterns/vertical_lines_pattern.png',
+//                                                    'background-repeat' => 'repeat',
+//                                                )
+//                                            ),
+//                                            'bg-8' => array(
+//                                                'icon' => $the_core_template_directory . '/images/patterns/waves_pattern_preview.jpg',
+//                                                'css' => array(
+//                                                    'background-image' => $the_core_template_directory . '/images/patterns/waves_pattern.png',
+//                                                    'background-repeat' => 'repeat',
+//                                                )
+//                                            ),
+//                                        )
+//                                    )
                                 )
                             ),
                             'logo_settings' => array(
